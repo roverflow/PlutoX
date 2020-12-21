@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "89585366570",
+    "project_id": "plutox-bec08",
+    "storage_bucket": "plutox-bec08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89585366570:android:1db477867f497c30927553",
+        "android_client_info": {
+          "package_name": "com.pwnfunction.plutox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89585366570-0dh0vk9ciots9pei8ama1o0ptpta2011.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pwnfunction.plutox",
+            "certificate_hash": "d973a06b7a2d851059b6df02f500cb4c8e4a60de"
+          }
+        },
+        {
+          "client_id": "89585366570-8mgjfq0avm6coulv92riod04j6e8effc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO0tRB5hXCVvtcfZr3XR0EqiGBarnKxFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89585366570-8mgjfq0avm6coulv92riod04j6e8effc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
