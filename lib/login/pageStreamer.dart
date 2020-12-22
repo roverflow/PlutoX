@@ -21,7 +21,8 @@ class HomePage extends StatelessWidget {
                 return buildLoading();
               } else if (snapshot.hasData) {
                 //return LoggedInWidget();
-                return HomeScreen();
+                //return HomeScreen();
+                return BottomNavBar();
               } else {
                 return SignUpWidget();
               }

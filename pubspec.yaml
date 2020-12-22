@@ -26,6 +26,7 @@ dependencies:
   auth_buttons: ^0.0.4
   cloud_firestore: ^0.14.4
   cupertino_icons: ^1.0.0
+  curved_navigation_bar: ^0.3.4
   firebase: ^7.3.3
   firebase_analytics: ^6.3.0
   firebase_auth: ^0.18.4+1
