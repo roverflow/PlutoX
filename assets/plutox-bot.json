@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "plutox-bec08",
+  "private_key_id": "6bf540a8264193d9122f237031bc23a980a5acca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC1GgxAV5cx1JsK\nBRwjuzTsSCUD+l6BA4omTZXcGRVSZQQqHxPWCd3jS5RS59rfMqf+j/YAuNlermFq\neWfSVhrFHK8a0l01qTyX31peCq5I6BbDhj+fadZ42aVOHmrt760e2eyDPU99wnos\nmuntTAIieWa+rxToN6kICv19M1OIWy4KsQfhPxizIZ3CUuIL4gsNh0PW9zcDquwT\nuA7dABSLQ+GoZM+Ah+3GZHAjFVB35yEab1T/lgabXPrUUK24gM2GGi57YCWTQfPA\n05dukjfVUX7UcVFNS6FOJlCcsqaflk76+sVVcH1s87z0LG0rYaWuJd1eLSoAmmZe\nK4QLP9d1AgMBAAECggEAH0KqR7b23b6drnqYU2Cer4R6gzfF9U4XnCn7Sr03rXvL\nXrvzkBgu6Wuj5DWqVamoTuwpohFGUC4YmajwL2H2h/y+Cwqx1S/ryilfL2l3kRUi\nzMhRFiLORxkGjDf67CxZfUBPr423OXWG4kkxROlAWxQKlLKjELx+3GkNPX3NFvWf\nc/HnaaMJNJAPlq8yduUuA3j6jyTgQpq+qU9PWfYNuHi3PyCDd3yvs8nEJhXOOZMR\nZemiMyBm3kN2CQNqxwSqXfedV4Iw1PZU7TvqOeZdPoEWL2PNv4jcD7+N7ixqL2O5\nkYLOTJ8qEGaqml27Hb+ggCnnmxlwY1/pryPK0qPr8QKBgQDwFUV0Ide8Je1MENFB\nJnt9YR6amBIKJ7AxcalizIbtflEDM3CNC933oOh0fKzCGn+mVCUJm3vwVDGLWjRu\nWEEAWZ/Al1DpW3GLcGmZ0zhxtxRO+ngtcqBO7uUeRMLvE3PxXPshWleB2OzDmLPf\nZRmnLCDiB5n24VZcB6FRbd++6QKBgQDBG7xbiMPjHh6rlbjGJ25iqXp7PIgoT6bV\nj7GgO++dmK2VMkIU20loM4ypoa4ItFdm1o9y38tV12qFSvCFKBJrgBiMWQswJyHX\n7EfU8fnDeTEwVqnxnp5XZLp9D+LyFXoLwn327qEennodU6Iovn22NdaYiUawQg1m\nOa0PUFC0rQKBgQCJNa72+yx/tDFVarsc//BNrMa/1a9hrGMPLwV+mKN4cdu895YY\nljKqhoSzpllZqalQlwB/6CPCK2wRV2FluvyTRaV+fTxZ0dAnv/wqVMQKgXaS2KT8\nXGlwEypQzT2XQ0fdJqXD3wzqAd72vnv2baJmn1q/s1Zz+T7Q4+93SVM5mQKBgQCO\ncHv2dKIxI+VxoUWi/DDjG6nZvyObwG0KOCzISY2MjLL1SxYNNlcmQmfuM/EgQI37\nsCYtkL/2eKf82/Mf9RfpLZpt47xp72N6VrIBc99MfVd4FWTTcbHQOt+IIjC/anIU\nvIiXnRtBb5oZibgiH6iwv3OkHhYDKyWhEsgBdLejHQKBgQDVlvOJcpfE1hpNSJt7\naBYiUWjtPdDbTHZjqksfEO7llGHr+l0nitujPkny72fWooTpkzgfIVOACa/h12qL\nGE96ggi7C7EXXmZ/keyUSFLVgfEdk0l2alSiMQXwDhnztor56bnKwVCNluztha1U\nFZt+BfKh/7+wm0dykTdy0oS+2Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "plutoxadmin@plutox-bec08.iam.gserviceaccount.com",
+  "client_id": "104985017398467367308",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/plutoxadmin%40plutox-bec08.iam.gserviceaccount.com"
+}

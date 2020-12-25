@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:plutox/PagesMainPage/ChatBot.dart';
+import 'package:plutox/PagesMainPage/DoctorChatController.dart';
+import 'package:plutox/PagesMainPage/RecordsController.dart';
 import 'package:plutox/login/google_signin.dart';
 import 'package:plutox/main.dart';
 import 'package:provider/provider.dart';
@@ -28,60 +31,68 @@ import 'package:provider/provider.dart';
 //   }
 // }
 
-class BottomNavBar extends StatefulWidget {
+class MainPage extends StatefulWidget {
   @override
-  _BottomNavBarState createState() => _BottomNavBarState();
+  _MainPageState createState() => _MainPageState();
 }
 
-class _BottomNavBarState extends State<BottomNavBar> {
-  int _page = 0;
+class _MainPageState extends State<MainPage> {
   GlobalKey _bottomNavigationKey = GlobalKey();
+
+  PageController _pageController;
+
+  int _Page = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    _pageController = PageController();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          elevation: 0,
-          backgroundColor: Colors.blueAccent,
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.white,
+        centerTitle: true,
+        title: Text(
+          "PlutoX",
+          style: TextStyle(fontFamily: 'JetBrains', color: Colors.blueAccent),
         ),
-        drawer: new Drawer(),
-        bottomNavigationBar: CurvedNavigationBar(
-          key: _bottomNavigationKey,
-          index: 0,
-          height: 50.0,
-          items: <Widget>[
-            Icon(Icons.add, size: 30),
-            Icon(Icons.compare_arrows, size: 30),
-            Icon(Icons.perm_identity, size: 30),
-          ],
-          color: Colors.white,
-          buttonBackgroundColor: Colors.white,
-          backgroundColor: Colors.blueAccent,
-          animationCurve: Curves.easeInOut,
-          animationDuration: Duration(milliseconds: 600),
-          onTap: (index) {
-            setState(() {
-              _page = index;
-            });
-          },
-        ),
-        body: Container(
-          color: Colors.blueAccent,
-          child: Center(
-            child: Column(
-              children: <Widget>[
-                Text(_page.toString(), textScaleFactor: 10.0),
-                RaisedButton(
-                  child: Text('Go To Page of index 1'),
-                  onPressed: () {
-                    final CurvedNavigationBarState navBarState =
-                        _bottomNavigationKey.currentState;
-                    navBarState.setPage(1);
-                  },
-                )
-              ],
-            ),
-          ),
-        ));
+        iconTheme: IconThemeData(color: Colors.blueAccent),
+      ),
+      drawer: new Drawer(),
+      body: PageView(
+        physics: new NeverScrollableScrollPhysics(),
+        controller: _pageController,
+        children: <Widget>[RecordsController(), DoctorChat(), Chatbot()],
+        onPageChanged: (int index) {
+          setState(() {
+            _pageController.jumpToPage(index);
+          });
+        },
+      ),
+      bottomNavigationBar: CurvedNavigationBar(
+        key: _bottomNavigationKey,
+        index: 0,
+        height: 50.0,
+        items: <Widget>[
+          Icon(Icons.add, size: 30),
+          Icon(Icons.compare_arrows, size: 30),
+          Icon(Icons.perm_identity, size: 30),
+        ],
+        color: Colors.white,
+        buttonBackgroundColor: Colors.blueAccent,
+        backgroundColor: Colors.white,
+        animationCurve: Curves.easeInOut,
+        animationDuration: Duration(milliseconds: 250),
+        onTap: (index) {
+          setState(() {
+            _pageController.jumpToPage(index);
+          });
+        },
+      ),
+    );
   }
 }

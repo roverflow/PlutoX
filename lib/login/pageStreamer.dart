@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
               } else if (snapshot.hasData) {
                 //return LoggedInWidget();
                 //return HomeScreen();
-                return BottomNavBar();
+                return MainPage();
               } else {
                 return SignUpWidget();
               }
