@@ -1,16 +1,28 @@
 # plutox
 
-A Health Records Applicaton
+A Health Records Applicaton to easily save anamnesis, patient records, patient history, health information.
 
-## Getting Started
+It could be considered as medical management, family healthcare, medical records tracker app as normal persons can use the app to store their private medical information and their family health history, thus makes it easy for your doctor to track your medical info history
 
-This project is a starting point for my Health application.
 
-A few resources I used to get started with my project:
+## Features 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Medical data is stored in a secure cloud storage where data sync is enabled.
+- Easy Google Authentication , no extra steps for Sign-In.
+- A very useful chatbot for setting reminders.
+- Very Easy instant messaging Feature 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Updates
+
+The app is still a work in progress , there are still a lot of feartures to add .
+
+
+
+
+
+
+
+
+
