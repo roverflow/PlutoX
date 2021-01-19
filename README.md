@@ -1,4 +1,4 @@
-# plutox
+# PlutoX
 
 A Health Records Applicaton to easily save anamnesis, patient records, patient history, health information.
 
